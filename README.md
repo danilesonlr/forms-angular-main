@@ -59,6 +59,8 @@ Criar um componente ng g c components/mensagem
 Para criar uma variavel dentro das tag no html e preciso utilizar a expressão # e passar o o tipo exemplo #nome="ngModel", #f="ngForm" nessas exemplos
 estou criando uma variavel do tipo model para o input e uma variavel para o formulário. exemplo cadastro.component.ts
 
+blur e acionado quando eu clico em um input e clico em outro input exemplo no campo CEP cadastro-component.html
+
 # O que directive ?
 
 No Angular, uma diretiva é uma classe que pode modificar o comportamento de elementos no DOM. As diretivas são um dos principais recursos do Angular e permitem que você estenda o HTML com novos atributos e comportamento personalizado.
@@ -93,3 +95,10 @@ Texto (Text nodes): Representam o conteúdo textual dos elementos.
 Comentários (Comment nodes): Representam comentários no código HTML.
 Exemplo de Estrutura DOM
 Considere o seguinte documento HTML:
+
+
+# API Utilizada 
+
+ViaCEP https://viacep.com.br/
+
+
