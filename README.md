@@ -58,3 +58,38 @@ Criar um componente ng g c components/mensagem
 
 Para criar uma variavel dentro das tag no html e preciso utilizar a expressão # e passar o o tipo exemplo #nome="ngModel", #f="ngForm" nessas exemplos
 estou criando uma variavel do tipo model para o input e uma variavel para o formulário. exemplo cadastro.component.ts
+
+# O que directive ?
+
+No Angular, uma diretiva é uma classe que pode modificar o comportamento de elementos no DOM. As diretivas são um dos principais recursos do Angular e permitem que você estenda o HTML com novos atributos e comportamento personalizado.
+
+
+Diretivas de Componente: São na verdade componentes Angular. Um componente com um template associado é tecnicamente uma diretiva, mas geralmente nos referimos a eles como componentes.
+
+Diretivas Atributo (Attribute Directives): Modificam o comportamento ou a aparência de um elemento, componente ou outra diretiva. Exemplo: ngClass, ngStyle.
+
+Diretivas Estruturais (Structural Directives): Alteram a estrutura do DOM, adicionando ou removendo elementos. Exemplo: ngIf, ngFor.
+
+Diretivas Validadoras Integradas:
+    Angular fornece várias diretivas validadoras integradas que você pode usar diretamente em seus templates:
+
+    required: Valida se o campo é obrigatório.
+    minlength e maxlength: Validam o número mínimo e máximo de caracteres em um campo de texto.
+    pattern: Valida se o valor do campo corresponde a uma expressão regular específica.
+    min e max: Validam os valores mínimo e máximo para campos numéricos.
+
+E possivel criar uma diretictve e exemplo maior-idade-directive.ts e está sendo usando para validar o campo nascimento cadastro.component.html
+
+# O que e DOM?
+
+O DOM (Document Object Model) é uma interface de programação para documentos HTML e XML. Ele representa a estrutura do documento como uma árvore de objetos que podem ser manipulados com linguagens de script, como JavaScript.
+
+Estrutura do DOM
+No DOM, cada elemento do documento é representado por um nó (node), e esses nós são organizados em uma hierarquia que forma uma árvore. Existem diferentes tipos de nós, como:
+
+Elementos (Element nodes): Representam tags HTML (e.g., <div>, <p>, <a>).
+Atributos (Attribute nodes): Representam os atributos dos elementos (e.g., class, id).
+Texto (Text nodes): Representam o conteúdo textual dos elementos.
+Comentários (Comment nodes): Representam comentários no código HTML.
+Exemplo de Estrutura DOM
+Considere o seguinte documento HTML:
