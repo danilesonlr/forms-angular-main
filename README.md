@@ -46,3 +46,15 @@ O ngIf e uma diretiva do Angular para realizar o if no .html exemplo cadastro.co
 E possivel criar uma classe .css para alterar a cor do form nas validações exemplo cadastro.component.css classe .ng-touched.ng-invalid:not(form)
 
 E possivel criar validações no input utilizando as diretivas do Angular exemplo: cadastro.component.html required (Verificar campo preenchigo), minlength="2" (Verificar se campo possui no minimo 2 caracteres) 
+
+
+A validação email do Angular possui alguns bugs por esse motivo e interessante utilizar a expressão pattern passando o regex exemplo cadastro.component.html, no exemplo está sendo usando as duas validações somente para manter o exemplo, porem não e ideal utilizar as duas validação ao mesmo tempo. 
+
+
+Com o uso de Two-way data binding [()], mais conhecido como banana na caixa, é possível atribuir a uma propriedade no componente e ter o valor atualizado tanto no template como no componente.
+
+
+Criar um componente ng g c components/mensagem
+
+Para criar uma variavel dentro das tag no html e preciso utilizar a expressão # e passar o o tipo exemplo #nome="ngModel", #f="ngForm" nessas exemplos
+estou criando uma variavel do tipo model para o input e uma variavel para o formulário. exemplo cadastro.component.ts
