@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+# Curiosodades
+
+
+O ngForm tratata o formulario inteiro exemplo: cadastro.component.html
+
+O ngModel trata o campo especifico exemplo: cadastro.component.html.
+
+As rotas da aplicação são criadas no arquivo app-routing.module.ts e a tela principal mantem o path= '' 
+
+Os imports de classe utilizado no sistema são criadas no arquivo app.module.ts
+
+O expressao ? ou sefem navegation e colcado após uma variável para tratar um possível retorno de nulo ou undefined, sem isso, o sistema não vai presenta erro porem pode impedir que o compontente intero seja redenizado exemplo cadastro.component.html.
+
+O ngIf e uma diretiva do Angular para realizar o if no .html exemplo cadastro.component.html.
+
+E possivel criar uma classe .css para alterar a cor do form nas validações exemplo cadastro.component.css classe .ng-touched.ng-invalid:not(form)
+
+E possivel criar validações no input utilizando as diretivas do Angular exemplo: cadastro.component.html required (Verificar campo preenchigo), minlength="2" (Verificar se campo possui no minimo 2 caracteres) 
